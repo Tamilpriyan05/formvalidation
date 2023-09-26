@@ -1,0 +1,92 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(161,255,255,1) 11.3%, rgba(6,255,255,1) 41.2%, rgba(0,216,216,1) 77.8% );
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+}
+#form{
+    
+    padding: 50px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 95%);
+}
+h2{
+    text-align: center;
+    color: rgb(6, 222, 6);
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bolder;
+}
+label{
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+     
+}
+input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 3px;
+    font-size: 20px;
+    margin-bottom: 3px;
+    border: none;
+    
+}
+input:focus{
+    outline: none;
+    border: solid rgb(0, 0, 0);
+}
+
+.error{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: red;
+}
+.input-group.error1 input{
+     border: solid  red;
+}
+.input-group.sucess input{
+     border: solid rgb(6, 222, 6);
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color:red ;
+    border: solid 1px black;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    
+}
+button:hover{
+    background-color:rgb(6, 222, 6) ;
+    color: black;
+    border: none;
+}
+
+
+.input-group{
+    position: relative;
+}
+#eyeicon,#eyeicon1{
+    position: absolute;
+    right: 5px;
+    top:33px;
+    font-size: 18px;
+}
+
